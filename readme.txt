@@ -19,7 +19,7 @@ This plugin is dedicated to a good friend Rachel Marek.
 == Screenshots ==
 
 View Screenshots:
-http://www.doc4design.com/plugins/hello-hollywood/
+<a href="http://www.doc4design.com/plugins/hello-hollywood/">http://www.doc4design.com/plugins/hello-hollywood/</a>
 
  
 == Installation ==
