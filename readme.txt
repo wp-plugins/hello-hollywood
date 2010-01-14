@@ -9,7 +9,7 @@ Stable tag: 1.0
 
 == Description ==
 
-Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello Hollywood" is a spin-off of <a href="http://www.wordpress.com/extend/hello-hal">"Hello HAL"</a> a science fiction movie quotation plugin.  As with "Hello Dolly" both "Hello HAL" and "Hello Hollywood add random quotes to the dashboard.
+Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello Hollywood" is a spin-off of <a href="http://wordpress.org/extend/plugins/hello-hal/">"Hello HAL"</a> a science fiction movie quotation plugin.  As with "Hello Dolly" both "Hello HAL" and "Hello Hollywood add random quotes to the dashboard.
 
 With "Hello Hollywood" movie quotations are not limited by a film genre. This plugin, as with "Hello HAL" includes character and film title notations.
 
