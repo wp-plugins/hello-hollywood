@@ -73,7 +73,7 @@ add_action('admin_notices', 'hello_hollywood');
 
 // We need some CSS to position the quotes
 function hollywood_css() {
-	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/hello-hollywood/css/movie-quotes.css" rel="stylesheet" type="text/css" />'."\n";
+	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/hello-hollywood/hello-hollywood.css" rel="stylesheet" type="text/css" />'."\n";
 }
 
 add_action('admin_head', 'hollywood_css');
