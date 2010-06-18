@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: theater, movies, movie quotes
 Requires at least: 2.7
-Tested up to: 2.9.1
-Stable tag: 1.0
+Tested up to: 3.0
+Stable tag: 1.5
 
 
 == Description ==
@@ -51,3 +51,10 @@ Bad:
 == Screenshots ==
 
 [http://www.doc4design.com/plugins/hello-hollywood]
+
+== Changelog ==
+
+= 2.0 =
+* Updated for WordPress 3.0
+* Updated Appearance
+* Additional Quotes Added
