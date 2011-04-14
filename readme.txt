@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: theater, movies, movie quotes
 Requires at least: 2.7
-Tested up to: 3.1
-Stable tag: 1.5
+Tested up to: 3.1.1
+Stable tag: 2.0
 
 
 == Description ==
@@ -22,7 +22,7 @@ This plugin is dedicated to a good friend Rachel Marek.
 == Screenshots ==
 
 View Screenshots:
-<a href="http://www.doc4design.com/plugins/hello-hollywood/">http://www.doc4design.com/plugins/hello-hollywood/</a>
+http://www.doc4design.com/plugins/hello-hollywood/
 
  
 == Installation ==
@@ -50,14 +50,13 @@ Bad:
 [ Harrison Ford: Indiana Jones Movie ]
 
 
-
-== Screenshots ==
-
-[http://www.doc4design.com/plugins/hello-hollywood]
-
 == Changelog ==
 
 = 2.0 =
+* Updated for WordPress 3.1.1
+* Additional Quotes Added
+
+= 1.5 =
 * Updated for WordPress 3.0
 * Updated Appearance
 * Additional Quotes Added
