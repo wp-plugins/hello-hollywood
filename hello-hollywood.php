@@ -3,7 +3,7 @@
 Plugin Name: Hello Hollywood
 Plugin URI: http://www.doc4design.com/plugins/hello-hollywood
 Description: Adds random movie quotes to your admin header
-Version: 1.5
+Version: 2.0
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -51,13 +51,23 @@ I just hate you and I hate your ass face.<div id=\"note\">[ Corky St. Clair - Wa
 The greatest trick the devil ever pulled was convincing the world he didn't exist.<div id=\"note\">[ Verbal Kint - The Usual Suspects ]</div>
 That's what I love about these high school girls, man: I get older, they stay the same age.<div id=\"note\">[ Wooderson - Dazed and Confused ]</div>
 I have nipples, Greg. Could you milk me?<div id=\"note\">[ Jack Byrnes - Meet the Parents ]</div>
-Joey, do you like movies about gladiators?<div id=\"note\">[ Captain Oveur = Airplane ]</div>
+Joey, do you like movies about gladiators?<div id=\"note\">[ Captain Oveur - Airplane ]</div>
 This was maybe not such a good idea!<div id=\"note\">[ Lindsay Brigman - The Abyss ]</div>
 This is a four thousand dollar sofa upholstered in Italian silk. It is not just a couch.<div id=\"note\">[ Carolyn Burnham - American Beauty ]</div>
-Naked blonde walks into a bar with a poodle under one arm, and a two-foot salami under the other.<div id=\"note\">[ Bender - The Breakfast Club ]</div>
+Naked blonde walks into a bar with a poodle under one arm, and a two-foot salami under the other.<div id=\"note\">[ John Bender - The Breakfast Club ]</div>
 What's with that slime on your backpack? <div id=\"note\">[ Michael Williams - The Blair Witch Project ]</div>
-So is this dude. It's a break-dancing stripper emergency.<div id=\"note\">[ Chester - Dude, Where's My Car? ]</div>
-I used to kill for the CIA.<div id=\"note\">[ Oyyo - A Fish Called Wanda ]</div>";
+It's a break-dancing stripper emergency.<div id=\"note\">[ Chester - Dude, Where's My Car? ]</div>
+I used to kill for the CIA.<div id=\"note\">[ Oyyo - A Fish Called Wanda ]</div>
+Gee, I'm really sorry your mom blew up, Ricky. I guess she won't be able to eat any spicy foods for awhile.<div id=\"note\">[ Lane - Better Off Dead ]</div>
+Somone saw a cochroach on 14th floor<div id=\"note\">[ Dr. Venkman - Ghostbusters ]</div>
+So it's sort of social.  Demented and sad, but social.<div id=\"note\">[ John Bender - The Breakfast Club ]</div>
+You ditched Napoleon?<div id=\"note\">[ Bill - Bill and Ted's Excellent Adventure ]</div>
+Say Bob, do I have any openings that this man might fit?<div id=\"note\">[ Empress Nympho - History of the World Part I ]</div>
+Frankly, my dear, I don't give a damn.<div id=\"note\">[ Rhett Butler - Gone with the Wind ]</div>
+I'm going to make him an offer he can't refuse.<div id=\"note\">[ Don Vito Corleone - The Godfather ]</div>
+Here's looking at you, kid.<div id=\"note\">[ Ricky Blaine - Casablanca ]</div>
+Go ahead, make my day<div id=\"note\">[ Harry Callahan - Sudden Impact ]</div>
+";
 
 // Here we split it into lines
 $quotes = explode("\n", $quotes);
@@ -73,7 +83,7 @@ function hello_hollywood() {
 }
 
 // Now we set that function up to execute when the admin_footer action is called
-add_action('admin_notices', 'hello_hollywood');
+add_action('all_admin_notices', 'hello_hollywood');
 
 
 // We need some CSS to position the quotes
