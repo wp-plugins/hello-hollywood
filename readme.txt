@@ -50,7 +50,7 @@ Bad:
 
 == Changelog ==
 
-= 2.6 =
+= 3.0 =
 * Updated code to ensure functionality with WordPress 3.5+
 * Additional Quotes Added
 * Moved CSS into function
