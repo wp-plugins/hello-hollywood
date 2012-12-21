@@ -4,7 +4,7 @@ Donate link: http://www.doc4design.com/donate
 Tags: theater, movies, quotes, cinema, fame
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 2.6
+Stable tag: 3.0
 
 
 == Description ==

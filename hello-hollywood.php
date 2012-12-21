@@ -3,7 +3,7 @@
 Plugin Name: Hello Hollywood
 Plugin URI: http://www.doc4design.com/plugins/hello-hollywood
 Description: Adds movie quotes to the dashboard
-Version: 2.6
+Version: 3.0
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
