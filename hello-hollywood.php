@@ -3,7 +3,7 @@
 Plugin Name: Hello Hollywood
 Plugin URI: http://www.doc4design.com/plugins/hello-hollywood
 Description: Adds movie quotes to the dashboard
-Version: 3.0
+Version: 3.1
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -99,7 +99,7 @@ function hello_hollywood() {
 }
 
 // Now we set that function up to execute when the admin_footer action is called
-add_action('admin_menu', 'hello_hollywood');
+add_action('admin_notices', 'hello_hollywood');
 
 
 // We need some CSS to position the paragraph
